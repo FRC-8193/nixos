@@ -1,0 +1,19 @@
+singleton Theme 1.0 Theme.qml
+singleton State 1.0 State.qml
+singleton Sys 1.0 Sys.qml
+singleton Notifs 1.0 Notifs.qml
+Pill 1.0 Pill.qml
+QsSlider 1.0 QsSlider.qml
+Bar 1.0 Bar.qml
+Backdrop 1.0 Backdrop.qml
+Wallpaper 1.0 Wallpaper.qml
+Launcher 1.0 Launcher.qml
+Overview 1.0 Overview.qml
+LeftSidebar 1.0 LeftSidebar.qml
+RightSidebar 1.0 RightSidebar.qml
+MediaControls 1.0 MediaControls.qml
+Session 1.0 Session.qml
+Cheatsheet 1.0 Cheatsheet.qml
+WallpaperSelector 1.0 WallpaperSelector.qml
+NotificationPopups 1.0 NotificationPopups.qml
+Shortcuts 1.0 Shortcuts.qml

@@ -1,0 +1,3 @@
+# Optional team-wide interactive additions.
+# Core prompt, plugins, completion, aliases and helpers are managed in modules/home/zsh.nix.
+# Put per-user overrides in ~/.config/zsh/local.zsh (never commit secrets).
