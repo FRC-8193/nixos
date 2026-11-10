@@ -9,7 +9,7 @@ Singleton {
   readonly property color fg: "#c0caf5"
   readonly property color dim: "#7a82a8"
   readonly property color accent: "#7aa2f7"
-  readonly property color onAccent: "#16161e"
+  readonly property color _onAccent: "#16161e"
   readonly property color danger: "#f7768e"
   readonly property color ok: "#9ece6a"
   readonly property int radius: 14

@@ -6,7 +6,7 @@
     # Java / Gradle (WPILib season toolchain)
     jdk17 gradle
     # C / C++ and native debugging
-    gcc clang clang-tools cmake ninja gnumake gdb pkg-config ccache
+    clang clang-tools cmake ninja gnumake gdb pkg-config ccache
     # Python robotics / scripting
     python3 uv python3Packages.pyserial python3Packages.numpy
     python3Packages.pip python3Packages.virtualenv

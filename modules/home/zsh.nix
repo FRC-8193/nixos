@@ -147,8 +147,7 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    delta.enable = true;
-    extraConfig = {
+    settings = {
       init.defaultBranch = "main";
       pull.rebase = true;
       fetch.prune = true;
@@ -156,6 +155,11 @@
       rerere.enabled = true;
       diff.colorMoved = "default";
     };
+  };
+
+  programs.delta = {
+    enable = true;
+    enableGitIntegration = true;
   };
 
   programs.tmux = {
@@ -174,10 +178,10 @@
 
   home.packages = with pkgs; [
     zsh-completions
-    btop duf du-dust procs
+    btop duf dust procs
     tealdeer
     lazygit git-lfs gh delta
-    nix-tree nix-output-monitor nixfmt-rfc-style statix deadnix
+    nix-tree nix-output-monitor nixfmt statix deadnix
     shellcheck shfmt just hyperfine watchexec ouch
     tmux zellij direnv
   ];

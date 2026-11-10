@@ -48,7 +48,7 @@
             python3 uv python3Packages.pyserial python3Packages.numpy
             nodejs_22 rustc cargo
             jq yq-go ripgrep fd fzf
-            shellcheck shfmt nixfmt-rfc-style statix deadnix
+            shellcheck shfmt nixfmt statix deadnix
             usbutils pciutils minicom tio picocom openocd
             nmap iperf3 tcpdump mtr socat
           ];

@@ -36,8 +36,7 @@
   users.users.${team.userName} = {
     isNormalUser = true;
     description = team.fullName;
-    initialHashedPassword = lib.mkIf (team.initialHashedPassword != null)
-      team.initialHashedPassword;
+    initialPassword = team.initialPassword;
     extraGroups = [ "wheel" "networkmanager" "video" "audio" "input" "dialout" "plugdev" "lp" ]
       ++ lib.optional config.virtualisation.docker.enable "docker";
     openssh.authorizedKeys.keys = team.sshAuthorizedKeys;

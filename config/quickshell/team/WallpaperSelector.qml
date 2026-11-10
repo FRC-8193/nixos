@@ -2,7 +2,6 @@ import QtQuick
 import Qt.labs.folderlistmodel
 import Quickshell
 import Quickshell.Wayland
-import .State
 
 // Picks from ~/Pictures/Wallpapers. Put images there.
 PanelWindow {

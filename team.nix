@@ -1,14 +1,14 @@
 # Shared team policy. Keep personal credentials and machine-specific settings out.
 {
-  userName = "robotics";
-  fullName = "Robotics Team";
+  userName = "stingers";
+  fullName = "New Lothrop Robotics";
   timeZone = "America/Detroit";
   locale = "en_US.UTF-8";
 
   # Optional precomputed password hash for initial provisioning.
   # Generate locally with: mkpasswd -m yescrypt
   # Prefer setting a password from the installer/live environment instead.
-  initialHashedPassword = null;
+  initialPassword = "changeme";
 
   # Public keys only. Never commit private keys.
   sshAuthorizedKeys = [
